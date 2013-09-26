@@ -1,13 +1,74 @@
-header {
+#header {
 	font: 50px, black, Helvetica;
 	background-color: #FF8598;
 	width: 100%;
 	height: 100px;
+	margin: 0 auto;
 
 }
 
+#headerbox {
+	width: 750px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+/*#btn1 {
+	float: left;
+	margin: 0 auto;
+}
+#btn2 {
+	float: left;
+	margin: 0 auto;
+} */
+
+#btn1 {
+  color: black;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 25px;
+  text-decoration: none;
+  position: relative;
+  padding: 15px 30px;
+  -webkit-box-shadow: 5px 5px 0 #666;
+  -moz-box-shadow: 5px 5px 0 #666;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  margin: 0 10px 0 0;
+}
+
+.btn1:hover {
+  -webkit-box-shadow: 0px 0px 0 #666;
+  -moz-box-shadow: 0px 0px 0 #666;
+  top: 5px;
+  left: 5px;
+}
+
+#btn2 {
+  color: black;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 25px;
+  text-decoration: none;
+  position: relative;
+  padding: 15px 30px;
+  -webkit-box-shadow: 5px 5px 0 #666;
+  -moz-box-shadow: 5px 5px 0 #666;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  margin: 0 10px 0 0;
+}
+
+.btn2:hover {
+  -webkit-box-shadow: 0px 0px 0 #666;
+  -moz-box-shadow: 0px 0px 0 #666;
+  top: 5px;
+  left: 5px;
+}
+
+
 h1 {
 	font: 80px, black, Trebuchet;
+	text-align: center;
 }
 
 
@@ -20,6 +81,7 @@ h1 {
 	text-align: center;
 	display: inline-block;
 	font-size: 130px;
+	opacity: .7;
 }
 
 .gameContainer {
@@ -27,12 +89,16 @@ h1 {
 	width: 434px;
 	height: auto;
 	margin: 0 auto;
-	margin: 50px auto 0 auto;
+	margin: 100px auto 100px auto;
 	position: relative;
 
 }
-body {
-	background-color: #D9E8F5;
+html { 
+  background: url(http://cloud-media.com/wp-content/uploads/2013/06/cumulus_clouds_bw_cloud_anything_with_beautiful_mystifying_desktop_1440x900_hd-wallpaper-6485262.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
@@ -49,5 +115,65 @@ body {
 	display: inline-block;
 	
 }
-	
+
+body {  
+    font-family:Helvetica, Arial, Century;
+    font-size:12px;
+    margin:0;
+    background: url('images/bluebg.jpg');
+    background-repeat:repeat-x;
+    background-position:top;
+    margin-top:90px;
+}
+
+
+#header {
+    background-color:#ffd727;
+    height:90px;
+    margin:0 auto;
+}
+
+
+#header ul {
+        margin:0 auto;
+        width:800px;
+        padding:12px;
+    list-style: none;
+}
+
+#header li {
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  font-family: Trebuchet;
+}
+
+#header a {
+    padding:0 14px;
+    text-align:center;
+  	display:block;
+  	font-size: 30px;
+  	font-family: Trebuchet;    
+}    
+
+    
+#header ul li a.logo {
+    background: url("/Users/HoustonGolden/wdi/tictactoelogobeta123.png");
+    background-repeat:no-repeat;
+    height:220px;
+    display:block;
+    width:215px;
+    margin-top:-61px;
+    padding: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after {
+     content: "";
+  clear: both;
+  display: table;
+}
 
