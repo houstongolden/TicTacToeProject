@@ -28,6 +28,18 @@
 
 <body>
 
+
+<div id="nav">
+    <ul>
+    <li><a href="#top">Home</a></li>
+      <li><a href="#page1">Play Game</a></li>
+      <li><a href="#page2">Share With Friends</a></li>
+      <li><a href="index.html">Rematch</a></li>
+    </ul>
+</div>
+
+
+
 <div id="bodyContainer1">
 
     <div id="header">
@@ -39,15 +51,21 @@
     </div>
 </div><!--end header-->
 
+
+
+
 <div class="gameContainer1">
-    <a href="https://www.twitter.com/tictactoe"><img src="http://vidds.com/wp-content/uploads/2013/09/sign-in-with-twitter-logo-1.png" /></a>
-
-
+    
     <a href="http://vidds.com/wp-content/uploads/2013/09/facebook-sign-in-logo-123.png"> <img src="http://vidds.com/wp-content/uploads/2013/09/facebook-sign-in-logo-123.png" /></a>
+
+    <a href="https://www.twitter.com/tictactoe"><img src="http://vidds.com/wp-content/uploads/2013/09/sign-in-with-twitter-logo-1.png" /></a>
 
 </div>
 
 <div class="gameContainer">
+
+<div id="page1">
+    <a id="Play Game"></a>
 
         <div class="sqr" id="cell1_1" onclick="playBox()"></div>
         <div class="sqr" id="cell1_2" onclick="playBox()"></div>
@@ -63,17 +81,35 @@
         <div class="sqr" id="cell3_2" onclick="playBox()"></div>
         <div class="sqr" id="cell3_3" onclick="playBox()"></div>
         <div class="clear"></div>
-   
+
+        <br></br>
+
     <div id="gameButtons">
 
         <input type="button" id="btn2" value="1 Player" onclick="playRematch()" />
         <input type="button" id="btn2" value="2 Player" onclick="playNewGame()" />
         <a type="button" id="btn1" value="rematch" onclick= "index.html" href=""> <img src=""href="http://vidds.com/wp-content/uploads/2013/09/facebook-sign-in-logo-123.png"></input>REMATCH!</a>
-
     </div>
-    
 
-    <div class="socials">
+    <div class="clear"></div>
+
+    <div id="pop_up" class="alert">
+    <br></br><br></br><br></br>
+    <h1>YOU ARE THE WINNER!!!!</h1>
+    </div><div class="clear"></div>
+
+    <div id="pop_up_2" class="alert">
+    <br></br><br></br><br></br>
+    <h1>YOU ARE THE LOSER!!!!</h1>
+    </div><div class="clear"></div>
+
+</div>
+
+
+
+<div id="page2">
+    <a id="Share With Friends"></a>
+    <div class="socials"><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         <h1>Share Game With Your Friends:</h1> 
         <a href="http://www.facebook.com"><img src="http://cloud-media.com/wp-content/uploads/2013/09/Facebook.png" /></a>
         <a href="http://www.twitter.com"><img src="http://cloud-media.com/wp-content/uploads/2013/09/Twitter.png" /></a>
@@ -83,6 +119,13 @@
         <a href="http://www.instagram.com"><img src="http://cloud-media.com/wp-content/uploads/2013/09/Instagram.png" /></a>
     </div>
 </div>
+</div>
+
+
+
+
+
+
 </div>
 
 <br></br>

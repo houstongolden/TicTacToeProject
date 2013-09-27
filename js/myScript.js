@@ -29,7 +29,7 @@ function playBox(){
 		case 9:
 		event.target.innerHTML = "X";
 		break;
-	
+
 
 	} 
 	turn = turn+1;
@@ -51,7 +51,8 @@ function playBox(){
 			cellArray[0][c] != "")
 
 		{if(cellArray [0][c].indexOf("my-baby-photo")>=0)
-		alert("Houston won in column " + (c+1));
+		// alert("Houston won in column " + (c+1));
+		document.getElementById("pop_up").style.display = "block";
 		else
 		alert("X won in column " + (c+1));
 		}
@@ -61,11 +62,12 @@ function playBox(){
 			cellArray[r][0] != "")
 
 		{if(cellArray [r][0].indexOf("my-baby-photo")>=0)
-		alert("Houston won in column " + (r+1));
+		// alert("Houston won in column " + (r+1));
+		document.getElementById("pop_up").style.display = "block";
 		else
 		alert("X won in column " + (r+1));
 		}
-		
+
 		}
 	}
 		if(cellArray[0][0] == cellArray[1][1] &&
@@ -73,7 +75,7 @@ function playBox(){
 			cellArray[0][0] != "")
 
 		{if(cellArray [0][0].indexOf("my-baby-photo")>=0)
-		alert("Houston won in diagonally");
+		document.getElementById("pop_up").style.display = "block";
 		else
 		alert("X won diagonally ");
 		}
@@ -83,12 +85,12 @@ function playBox(){
 			cellArray[0][2] != "")
 
 		{if(cellArray [0][2].indexOf("my-baby-photo")>=0)
-		alert("Houston won diagonally ");
+		// alert("Houston won diagonally ");
+		document.getElementById("pop_up").style.display = "block";
 		else
 		alert("X won diagonally ");
 }
 }
 
-
-
-
+// document.getElementById("pop_up").style.zIndex = "2";
+// document.getElementById("pop_up").innerHTML = "Houston won in column " + (c+1));
