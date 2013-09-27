@@ -157,7 +157,13 @@ h1 {
   position: relative;
 
 }
+.gameContainer1 {
+  width: 590px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
 
+}
 
 html { 
   background: url(http://www.ewallpapers.eu/w_show/purple-and-blue-minimal-1920-1080-6599.jpg) no-repeat center center fixed; 
