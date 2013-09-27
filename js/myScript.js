@@ -45,7 +45,7 @@ function playBox(){
 
 
 	for(c=0;c<=2;++c)
-	{
+		{	
 		if(cellArray[0][c] == cellArray[1][c] &&
 			cellArray[1][c] == cellArray[2][c] &&
 			cellArray[0][c] != "")
@@ -65,10 +65,10 @@ function playBox(){
 		else
 		alert("X won in column " + (r+1));
 		}
-
+		
 		}
 	}
-	if(cellArray[0][0] == cellArray[1][1] &&
+		if(cellArray[0][0] == cellArray[1][1] &&
 			cellArray[1][1] == cellArray[2][2] &&
 			cellArray[0][0] != "")
 
@@ -90,14 +90,5 @@ function playBox(){
 }
 
 
-// function playBox(){
-// if (turn=1){
-// event.target.innerHTML = "X"
-// turn = turn+1
-// } 
-// else{
-// event.target.innerHTML = "0"
-// turn-=1
-// }
 
 

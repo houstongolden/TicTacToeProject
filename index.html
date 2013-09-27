@@ -23,26 +23,24 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
+
+
+
+<body>
+
+<div id="bodyContainer">
 
     <div id="header">
     <div id="headerbox">
         <ul>
-           <li><a href="index.html">
-                <input type="button" id="btn1" value="New Game" onclick="strGame()" /></a>
-            </li>
             <li><a class="logo" href="index.html"></a></li>
-            <li><a href="index.html">
-                <input type="button" id="btn2" value="1 Player" onclick="playRematch()" /></a>
-            </li>
-            <li><a href="index.html"><input type="button" id="btn2" value="2 Player" onclick="playNewGame()" /></a></li>
+           <li><a href="index.html"></a>
         </ul>
     </div>
 </div><!--end header-->
 
-
-
 <div class="gameContainer">
+
         <div class="sqr" id="cell1_1" onclick="playBox()"></div>
         <div class="sqr" id="cell1_2" onclick="playBox()"></div>
         <div class="sqr" id="cell1_3" onclick="playBox()"></div>
@@ -57,10 +55,16 @@
         <div class="sqr" id="cell3_2" onclick="playBox()"></div>
         <div class="sqr" id="cell3_3" onclick="playBox()"></div>
         <div class="clear"></div>
- 
-</div>
+   
+    <div id="gameButtons">
 
-<br></br>
+        <input type="button" id="btn2" value="1 Player" onclick="playRematch()" />
+
+
+        <input type="button" id="btn2" value="2 Player" onclick="playNewGame()" />
+
+    </div>
+    
 
     <div class="socials">
         <h1>Share Game With Your Friends:</h1> 
@@ -71,6 +75,12 @@
         <a href="http://www.google.com"><img src="http://cloud-media.com/wp-content/uploads/2013/09/Google-+.png" /></a>
         <a href="http://www.instagram.com"><img src="http://cloud-media.com/wp-content/uploads/2013/09/Instagram.png" /></a>
     </div>
+</div>
+</div>
+
+<br></br>
+
+
 
 
 

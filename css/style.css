@@ -1,26 +1,40 @@
 #header {
   font: 50px, black, Helvetica;
-  background-color: ##2185C5;
+  background-color: #;
   width: 100%;
-  height: 100px;
+  height: 115px;
   margin: 50px auto 50px auto;
+  
 
 }
+
+h2 {
+  margin: 0 auto;
+}
+
+.gameButtons {
+  float: left;
+  margin: 0 auto;
+  width: 400px; 
+  height: 200px;    
+
+}
+
 
 
 body {  
     font-family: 'Monoton'
     font-size: 12px;
-    margin:0;
     background: url('images/bluebg.jpg');
     background-repeat:repeat-x;
     background-position:top;
-    margin-top:90px;
+    margin-top:20px;
+    margin-bottom: 200px;
 }
 
 #header ul {
         margin:0 auto;
-        width:800px;
+        width:10000px;
         padding:12px;
     list-style: none;
 }
@@ -42,43 +56,35 @@ body {
 
     
 #header ul li a.logo {
-    background: url("/Users/HoustonGolden/wdi/tictactoelogobeta123.png");
+    background: url("/Users/HoustonGolden/Desktop/CLOUDMEDIA/Tic Tac Toe io beta logo 1.png");
     background-repeat:no-repeat;
-    height:220px;
-    display:block;
-    width:215px;
-    margin-top:-61px;
-    padding: 0;
+    height:120px;
+    width:1024px;
+    padding: 0px;
+    margin-top: -35px;
+    margin-left: 70px;
 }
 
 #headerbox {
   width: 750px;
   height: auto;
-  margin: 50px auto 50px auto;
+  margin: 20px auto 5px auto;
   position: relative;
 }
 
 .socials {
-  width: 500px;
+  width: 400px;
   margin: 0px auto 50px auto;
   position: relative;
   float: right;
 }
 
-/*#btn1 {
-  float: left;
-  margin: 0 auto;
-}
-#btn2 {
-  float: left;
-  margin: 0 auto;
-} */
 
 #btn1 {
   color: black;
-  width: 150px;
+  width: 200px;
   font-family: Helvetica, Arial, Sans-Serif;
-  font-size: 25px;
+  font-size: 35px;
   text-decoration: none;
   position: relative;
   padding: 1px 1px;
@@ -87,8 +93,9 @@ body {
   -moz-box-shadow: 5px 5px 0 #666;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
-  margin: 0 10px 0 0;
-  border-radius: 5px;
+  float: left;
+  border-radius: 10px;
+  background-color: #D9FF5B;
 }
 
 .btn1:hover {
@@ -112,7 +119,8 @@ body {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   margin: 0 10px 0 0;
-  border-radius: 5px;
+  border-radius: 10px;
+  background-color: #F6B1C3;
 }
 
 .btn2:hover {
@@ -145,9 +153,8 @@ h1 {
 .gameContainer {
   width: 434px;
   height: auto;
-  margin: 0 auto;
-  position: absolute;
-  float: left;
+  margin: 10px auto 100px auto;
+  position: relative;
 
 }
 
