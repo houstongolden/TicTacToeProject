@@ -3,14 +3,14 @@
 	background-color: #FF8598;
 	width: 100%;
 	height: 100px;
-	margin: 0 auto;
+	margin: 50px auto 50px auto;
 
 }
 
 #headerbox {
 	width: 750px;
 	height: auto;
-	margin: 0 auto;
+	margin: 50px auto 50px auto;
 	position: relative;
 }
 
@@ -25,11 +25,13 @@
 
 #btn1 {
   color: black;
+  width: 80px;
   font-family: Helvetica, Arial, Sans-Serif;
   font-size: 25px;
   text-decoration: none;
   position: relative;
   padding: 15px 30px;
+  a:hover: ;
   -webkit-box-shadow: 5px 5px 0 #666;
   -moz-box-shadow: 5px 5px 0 #666;
   -webkit-transition: all 0.3s ease;
@@ -40,12 +42,14 @@
 .btn1:hover {
   -webkit-box-shadow: 0px 0px 0 #666;
   -moz-box-shadow: 0px 0px 0 #666;
+  background-color: blue;
   top: 5px;
   left: 5px;
 }
 
 #btn2 {
   color: black;
+  width: 80px;
   font-family: Helvetica, Arial, Sans-Serif;
   font-size: 25px;
   text-decoration: none;
@@ -85,7 +89,6 @@ h1 {
 }
 
 .gameContainer {
-	border: 10px solid #304269;
 	width: 434px;
 	height: auto;
 	margin: 0 auto;
@@ -93,6 +96,8 @@ h1 {
 	position: relative;
 
 }
+
+
 html { 
   background: url(http://cloud-media.com/wp-content/uploads/2013/06/cumulus_clouds_bw_cloud_anything_with_beautiful_mystifying_desktop_1440x900_hd-wallpaper-6485262.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -129,7 +134,7 @@ body {
 
 #header {
     background-color:#ffd727;
-    height:90px;
+    height:120px;
     margin:0 auto;
 }
 
