@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="normalize.css" />
+	<script type="text/javascript" src="myScript.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div id="header">
+	<div id="headerbox">
+        <ul>
+            <li><a href="index.html">
+            	<input type="button" id="btn1" value="New Game" onclick="strGame()" /></a>
+            </li>
+            <li><a href="index.html">
+            	<input type="button" id="btn1" value="Rematch" onclick="strGame()" /></a>
+            </li>
+            <li><a class="logo" href="index.html"></a></li>
+            <li><a href="index.html">
+            	<input type="button" id="btn2" value="1 Player" onclick="playRematch()" /></a>
+            </li>
+            <li><a href="index.html"><input type="button" id="btn1" value="2 Player" onclick="playNewGame()" /></a></li>
+        </ul>
+    </div>
+</div><!--end header-->
+<br></br>
+
+<div class="clear actionBox" id="g" onclick="playBox()"></div>
+
+<div class="gameContainer">
+		<div class="sqr" id="sqr1" onclick="playBox()"></div>
+		<div class="sqr" id="sqr2" onclick="playBox()"></div>
+		<div class="sqr" id="sqr3" onclick="playBox()"></div>
+		<div class="clear"></div>
+
+		<div class="sqr" id="sqr4" onclick="playBox()"></div>
+		<div class="sqr" id="sqr5" onclick="playBox()"></div>
+		<div class="sqr" id="sqr6" onclick="playBox()"></div>
+		<div class="clear"></div>
+
+		<div class="sqr" id="sqr7" onclick="playBox()"></div>
+		<div class="sqr" id="sqr8" onclick="playBox()"></div>
+		<div class="sqr" id="sqr9" onclick="playBox()"></div>
+		<div class="clear"></div>
+
+</div>
+
+</body>
+
+</html>
