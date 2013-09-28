@@ -1,35 +1,36 @@
 var turn = 1;
 var cellArray = [["", "", ""], ["", "", ""], ["", "", ""]];
 function playBox(){
-	switch(turn) {
-		case 1:
-		event.target.innerHTML = "X";
-		break;
-		case 2:
-		event.target.innerHTML = "<img src=\"http://cloud-media.com/wp-content/uploads/2013/09/my-baby-photo.jpg\" />";
-		break;
-		case 3:
-		event.target.innerHTML = "X";
-		break;
-		case 4:
-		event.target.innerHTML = "<img src=\"http://cloud-media.com/wp-content/uploads/2013/09/my-baby-photo.jpg\" />";
-		break;
-		case 5:
-		event.target.innerHTML = "X";
-		break;
-		case 6:
-		event.target.innerHTML = "<img src=\"http://cloud-media.com/wp-content/uploads/2013/09/my-baby-photo.jpg\" />";
-		break;
-		case 7:
-		event.target.innerHTML = "X";
-		break;
-		case 8:
-		event.target.innerHTML = "<img src=\"http://cloud-media.com/wp-content/uploads/2013/09/my-baby-photo.jpg\" />";
-		break;
-		case 9:
-		event.target.innerHTML = "X";
-		break;
-
+	 if(event.target.innerHTML == "") {
+		switch(turn) {
+			case 1:
+			event.target.innerHTML = "X";
+			break;
+			case 2:
+			event.target.innerHTML = "<img src=\"http://cloud-media.com/wp-content/uploads/2013/09/my-baby-photo.jpg\" />";
+			break;
+			case 3:
+			event.target.innerHTML = "X";
+			break;
+			case 4:
+			event.target.innerHTML = "<img src=\"http://cloud-media.com/wp-content/uploads/2013/09/my-baby-photo.jpg\" />";
+			break;
+			case 5:
+			event.target.innerHTML = "X";
+			break;
+			case 6:
+			event.target.innerHTML = "<img src=\"http://cloud-media.com/wp-content/uploads/2013/09/my-baby-photo.jpg\" />";
+			break;
+			case 7:
+			event.target.innerHTML = "X";
+			break;
+			case 8:
+			event.target.innerHTML = "<img src=\"http://cloud-media.com/wp-content/uploads/2013/09/my-baby-photo.jpg\" />";
+			break;
+			case 9:
+			event.target.innerHTML = "X";
+			break;
+		}
 
 	} 
 	turn = turn+1;
@@ -91,6 +92,20 @@ function playBox(){
 		alert("X won diagonally ");
 }
 }
+
+
+// function clickDiv() {
+// 	alert(event.target);
+// }
+
+// function pageLoaded() {
+// 	var squares = document.getElementsByClassName("sqr");
+// 	for(i=0;i<squares.length;++i)
+// 		squares[i].onclick = clickDiv;
+// }
+
+
+
 
 // document.getElementById("pop_up").style.zIndex = "2";
 // document.getElementById("pop_up").innerHTML = "Houston won in column " + (c+1));
