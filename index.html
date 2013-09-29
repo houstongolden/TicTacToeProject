@@ -9,8 +9,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css"> 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+
         <script type="text/javascript" src="js/myScript.js"></script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"> </script>
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href='http://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
@@ -18,13 +24,6 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js">
-
-
-
-        </script>
 
 
     </head>
@@ -36,10 +35,23 @@
 
 <div id="nav">
     <ul>
-    <li><a href="#top">Home</a></li>
-      <li><a href="#page1">Play Game</a></li>
-      <li><a href="#page2">Share With Friends</a></li>
-      <li><a href="index.html">Rematch</a></li>
+    <li><a class="toplink" href="#top"><img src="http://cloud-media.com/wp-content/uploads/2013/09/TicTacToe-GUI-Home-beta.png" /> <!-- Home --></a></li>
+      <li><a class="toplink" href="#page1"><img src="http://cloud-media.com/wp-content/uploads/2013/09/TicTacToe-GUI-Play-beta.png" /> <!-- Play --></a></li>
+      <li><a class="toplink" href="index.html"><img src="http://cloud-media.com/wp-content/uploads/2013/09/TicTacToe-GUI-Rematch-beta.png" /><!-- Rematch --></a></li>
+      <li><a class="toplink" href="#level2"><img src="http://cloud-media.com/wp-content/uploads/2013/09/TicTacToe-GUI-Levels-beta.png" /><!-- Levels --></a><li>
+      <li><a class="toplink" id="friends" href="#friendsPage"><img src="http://cloud-media.com/wp-content/uploads/2013/09/TicTacToe-GUI-Friends-beta.png" /><!-- Friends --></a></li>
+<!--         <ul>
+            <li><a href="#page1">Level 1</a><li>
+            <li><a href="#page2">Level 2</a><li>
+            <li><a href="#page3">Level 3</a><li>
+            <li><a href="#page4">Level 4</a><li>
+            <li><a href="#page5">Level 5</a><li>
+            <li><a href="#page6">Level 6</a><li>
+            <li><a href="#page7">Level 7</a><li>
+            <li><a href="#page8">Level 8</a><li>
+            <li><a href="#page9">Level 9</a><li>
+            <li><a href="#page10">Level 10</a><li>
+        </ul> -->
     </ul>
 </div>
 
@@ -68,9 +80,8 @@
 </div>
 
 <div class="gameContainer">
-
 <div id="page1">
-    <a id="Play Game"></a>
+    <a id="Play"></a>
 
         <div class="sqr" id="cell1_1" onclick="playBox()"></div>
         <div class="sqr" id="cell1_2" onclick="playBox()"></div>
@@ -115,9 +126,132 @@
                 
             </audio>
         </div>
+</div>
 
-<div id="page2">
-    <a id="Share With Friends"></a>
+
+
+
+</div>
+
+
+</div>
+<br></br>
+
+<div id="Levels">
+    <a id="level2"></a>
+    <div class="Level2">
+        <h1><br>Level 2 and more coming soon... Stay tuned! :) </br></h1>
+
+        <div class="sqr" id="cell1_1" onclick="playBox()"></div>
+        <div class="sqr" id="cell1_2" onclick="playBox()"></div>
+        <div class="sqr" id="cell1_3" onclick="playBox()"></div>
+        <div class="sqr" id="cell1_4" onclick="playBox()"></div>
+        <div class="clear"></div>
+
+        <div class="sqr" id="cell2_1" onclick="playBox()"></div>
+        <div class="sqr" id="cell2_2" onclick="playBox()"></div>
+        <div class="sqr" id="cell2_3" onclick="playBox()"></div>
+        <div class="sqr" id="cell2_4" onclick="playBox()"></div>
+        <div class="clear"></div>
+
+        <div class="sqr" id="cell3_1" onclick="playBox()"></div>
+        <div class="sqr" id="cell3_2" onclick="playBox()"></div>
+        <div class="sqr" id="cell3_3" onclick="playBox()"></div>
+        <div class="sqr" id="cell3_4" onclick="playBox()"></div>
+        <div class="clear"></div>
+
+        <div class="sqr" id="cell4_1" onclick="playBox()"></div>
+        <div class="sqr" id="cell4_2" onclick="playBox()"></div>
+        <div class="sqr" id="cell4_3" onclick="playBox()"></div>
+        <div class="sqr" id="cell4_4" onclick="playBox()"></div>
+        <div class="clear"></div>
+
+        <br></br>
+
+    <div id="gameButtons">
+
+        <input type="button" id="btn2" value="1 Player" onclick="playRematch()" />
+        <input type="button" id="btn2" value="2 Player" onclick="playNewGame()" />
+        <a type="button" id="btn1" value="rematch" onclick= "index.html" href=""> <img src=""href="http://vidds.com/wp-content/uploads/2013/09/facebook-sign-in-logo-123.png"></input>REMATCH!</a>
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="pop_up" class="alert">
+    <br></br><br></br><br></br>
+    <h1>YOU ARE THE WINNER!!!!</h1>
+    </div><div class="clear"></div>
+
+    <div id="pop_up_2" class="alert">
+    <br></br><br></br><br></br>
+    <h1>YOU ARE THE LOSER!!!!</h1>
+    </div><div class="clear"></div>
+
+  </div>
+
+    <div class="Level2">
+        <h1><br>Level 3 (beta) </br></h1>
+
+        <div class="sqr" id="cell1_1" onclick="playBox()"></div>
+        <div class="sqr" id="cell1_2" onclick="playBox()"></div>
+        <div class="sqr" id="cell1_3" onclick="playBox()"></div>
+        <div class="sqr" id="cell1_4" onclick="playBox()"></div>
+        <div class="sqr" id="cell1_5" onclick="playBox()"></div>
+        <div class="clear"></div>
+
+        <div class="sqr" id="cell2_1" onclick="playBox()"></div>
+        <div class="sqr" id="cell2_2" onclick="playBox()"></div>
+        <div class="sqr" id="cell2_3" onclick="playBox()"></div>
+        <div class="sqr" id="cell2_4" onclick="playBox()"></div>
+        <div class="sqr" id="cell2_5" onclick="playBox()"></div>
+        <div class="clear"></div>
+
+        <div class="sqr" id="cell3_1" onclick="playBox()"></div>
+        <div class="sqr" id="cell3_2" onclick="playBox()"></div>
+        <div class="sqr" id="cell3_3" onclick="playBox()"></div>
+        <div class="sqr" id="cell3_4" onclick="playBox()"></div>
+        <div class="sqr" id="cell3_5" onclick="playBox()"></div>
+        <div class="clear"></div>
+
+        <div class="sqr" id="cell4_1" onclick="playBox()"></div>
+        <div class="sqr" id="cell4_2" onclick="playBox()"></div>
+        <div class="sqr" id="cell4_3" onclick="playBox()"></div>
+        <div class="sqr" id="cell4_4" onclick="playBox()"></div>
+        <div class="sqr" id="cell4_5" onclick="playBox()"></div>
+        <div class="clear"></div>
+
+        <div class="sqr" id="cell5_1" onclick="playBox()"></div>
+        <div class="sqr" id="cell5_2" onclick="playBox()"></div>
+        <div class="sqr" id="cell5_3" onclick="playBox()"></div>
+        <div class="sqr" id="cell5_4" onclick="playBox()"></div>
+        <div class="sqr" id="cell5_5" onclick="playBox()"></div>
+        <div class="clear"></div>
+
+        <br></br>
+
+    <div id="gameButtons">
+
+        <input type="button" id="btn2" value="1 Player" onclick="playRematch()" />
+        <input type="button" id="btn2" value="2 Player" onclick="playNewGame()" />
+        <a type="button" id="btn1" value="rematch" onclick= "index.html" href=""> <img src=""href="http://vidds.com/wp-content/uploads/2013/09/facebook-sign-in-logo-123.png"></input>REMATCH!</a>
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="pop_up" class="alert">
+    <br></br><br></br><br></br>
+    <h1>YOU ARE THE WINNER!!!!</h1>
+    </div><div class="clear"></div>
+
+    <div id="pop_up_2" class="alert">
+    <br></br><br></br><br></br>
+    <h1>YOU ARE THE LOSER!!!!</h1>
+    </div><div class="clear"></div>
+
+  </div>
+
+    <div id="friendsPage">
+    <a id="friends"></a>
     <div class="socials"><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         <h1>Share Game With Your Friends:</h1> 
         <a href="http://www.facebook.com"><img src="http://cloud-media.com/wp-content/uploads/2013/09/Facebook.png" /></a>
@@ -128,8 +262,6 @@
         <a href="http://www.instagram.com"><img src="http://cloud-media.com/wp-content/uploads/2013/09/Instagram.png" /></a>
     </div>
 </div>
-</div>
-
 
 </div>
 
