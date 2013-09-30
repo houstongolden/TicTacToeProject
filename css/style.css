@@ -65,17 +65,18 @@ a {
 }
 
 .gameContainer {
-  width: 434px;
+  width: 800px;
   height: auto;
-  margin: 100px auto;
-  position: relative;
+  position: static;
   z-index: 4;
+  margin-top: 100px;
+  margin-left: 200px;
 
 }
 .gameContainer1 {
   width: 590px;
   height: auto;
-  margin: 20px auto 100px auto;
+  margin: 20px 0 100px auto;
   position: relative;
 
 }
@@ -157,8 +158,7 @@ a {
 
 .socials {
   width: 400px;
-  margin: 100px 300px 0px 100px;
-  bottom: 0px;
+  margin: -300px 300px 500px 100px;
   position: relative;
   float: right;
 }
