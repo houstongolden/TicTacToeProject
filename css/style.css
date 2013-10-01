@@ -67,17 +67,17 @@ a {
 .gameContainer {
   width: 800px;
   height: auto;
-  position: static;
+  position: relative;
   z-index: 4;
   margin-top: 100px;
   margin-left: 200px;
 
 }
-.gameContainer1 {
+.socialButtons {
   width: 800px;
-  margin: 20px 0 100px auto;
+  margin: 20px 0 100px;
   position: relative;
-
+  
 }
 
 #gameButtons {
@@ -87,23 +87,30 @@ a {
 
 }
 
+
 #nav {
-      position: fixed; 
-      width: 100%; 
-      top: 2px;
-      height: 80px;
-      background-color: black;
-      display: inline-block;
-      text-align: center; 
-      margin-bottom: 80px;
-      z-index: 5;
-      
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  position: fixed; 
+  top: 2px;
+  height: 80px;
+  display: inline-block;
+  text-align: center; 
+  z-index: 5;
 }
 
-
-#page2 {
-  top: 10px;
-  bottom: 200px;
+.toplink {
+  position: relative; 
+  width: 900px; 
+  top: 2px;
+  height: 78px;
+  background-color: black;
+  display: inline-block;
+  text-align: center; 
+  margin-bottom: 80px;
+  z-index: 5;
+      
 }
 
 #nav ul li {
@@ -112,8 +119,17 @@ a {
   font-size: 25px;
   font-family: 'Monoton';
   padding: 0 10px 0 10px;
-  margin-top: -10px;
+  margin: -10px 5px 0;
+ 
 }
+
+
+#page2 {
+  top: 10px;
+  bottom: 200px;
+}
+
+
 
 
 #header ul {
