@@ -5,8 +5,10 @@
   height: 115px;
   margin: 80px auto;
   margin-bottom: -10px;
-  
+}
 
+#Levels {
+  text-align: center;
 }
 
 h2 {
@@ -71,6 +73,7 @@ a {
   z-index: 4;
   margin-top: 100px;
   margin-left: 200px;
+  text-align: center;
 
 }
 .socialButtons {
@@ -129,9 +132,6 @@ a {
   bottom: 200px;
 }
 
-
-
-
 #header ul {
         margin:0 auto;
         width:800px;
@@ -153,7 +153,6 @@ a {
     font-size: 30px;
     font-family: Trebuchet;    
 }    
-
     
 #header ul li a.logo {
     background: url("http://cloud-media.com/wp-content/uploads/2013/09/Tic-Tac-Toe-io-beta-logo-1.png");
@@ -237,7 +236,7 @@ div .Level2 {
 
 h1 {
   font: 80px, black, Trebuchet;
-  text-align: left;
+  text-align: center;
 }
 
 
